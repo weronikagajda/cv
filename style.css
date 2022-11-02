@@ -4,7 +4,7 @@
 
 body {
       font-family: system-ui;
-      background-color: #FBF0F0
+      background-color: #FFFFFF
       }
 
 hr {
@@ -38,27 +38,27 @@ video:hover {
     }
 
 table {
-    color: #73777B;
+    color: #FFFAFA;
     text-align: center;
     }
 
 h3 {
-    color: #73777B;
+    color: #FFFAFA;
     text-align: center;
     }
 
 h4 {
-    color: #73777B;
+    color: #FFFAFA;
     text-align: center;
     }
 
 h2 {
-    color: #73777B;
+    color: #FFFAFA;
     text-align: center;
     }
 
 h3 {
-    color: #73777B;
+    color: #FFFAFA;
     text-align: center;
     }
 
@@ -73,13 +73,13 @@ h3 {
     }
 
  p {
-    color: #73777B;
+    color: #FFFAFA;
     text-align: justify;
     margin-right: 20%;
     margin-left: 20%;
     }
 
  a {
-    color: #73777B;
+    color: #FFFAFA;
     text-decoration: none;
     }
