@@ -16,11 +16,13 @@ hr {
 }
 
 img {
-    width: 80%;
+    width: 60%; /* Adjust the width to accommodate margins */
     display: block;
     margin-left: auto;
     margin-right: auto;
     opacity: 0.5;
+    margin-left: 20%; /* Match text alignment by adding margins */
+    margin-right: 20%;
 }
 
 img:hover {
@@ -28,8 +30,10 @@ img:hover {
 }
 
 video {
-    width: 80%;
-    opacity: 0.5; /* Removed invalid 'autoplay' and added missing semicolon */
+    width: 60%; /* Match image width for consistency */
+    opacity: 0.5;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 video:hover {
@@ -56,13 +60,7 @@ h4 {
     text-align: center;
 }
 
-.biotext {
-    text-align: justify;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-p {
+.biotext, p {
     text-align: justify;
     margin-right: 20%;
     margin-left: 20%;
