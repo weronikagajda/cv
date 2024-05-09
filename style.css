@@ -16,16 +16,18 @@ hr {
 }
 
 img {
-    width: 100%;
+    width: 80%; /* Adjust this as necessary */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.5; /* Removed extraneous period */
+    opacity: 0.5;
+    margin-bottom: 2em; /* Adds two lines worth of space after the image */
 }
 
 img:hover {
     opacity: 1;
 }
+
 
 video {
     width: 80%;
