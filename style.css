@@ -16,18 +16,16 @@ hr {
 }
 
 img {
-    width: 0.8; /* Adjust this as necessary */
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     opacity: 0.5;
-    margin-bottom: 2em; /* Adds two lines worth of space after the image */
 }
 
 img:hover {
     opacity: 1;
 }
-
 
 video {
     width: 80%;
