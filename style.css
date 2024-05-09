@@ -1,11 +1,11 @@
 .p1 {
     font-family: Arial, Helvetica, sans-serif;
-    }
+}
 
 body {
-      font-family: system-ui;
-      background-color: #000000
-      }
+    font-family: system-ui;
+    background-color: #000000; /* Added missing semicolon */
+}
 
 hr {
     border-style: none;
@@ -13,74 +13,61 @@ hr {
     width: 5%;
     border-color: rgb(249, 249, 249);
     border-width: 3px;
-    }
+}
 
 img {
-     width: 100%;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     opacity: 0.5;.
-     }
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5; /* Removed extraneous period */
+}
 
 img:hover {
     opacity: 1;
-    }
+}
 
 video {
     width: 80%;
-    autoplay
-    opacity: 0.5;
-    }
+    opacity: 0.5; /* Removed invalid 'autoplay' and added missing semicolon */
+}
 
 video:hover {
     opacity: 1;
-    }
+}
 
 table {
     color: #FFFAFA;
     text-align: center;
-    }
+}
 
-h3 {
+h3, h2, p, a {
     color: #FFFAFA;
     text-align: center;
-    }
-
-h4 {
-    color: #FFFAFA;
-    text-align: center;
-    }
-
-h2 {
-    color: #FFFAFA;
-    text-align: center;
-    }
+}
 
 h4 {
     color: blue;          
     text-align: center;
     text-decoration: underline; 
-    }
+}
 
 .centertext {
-    text-align: center
-    }
+    text-align: center;
+}
 
 .biotext {
     text-align: justify;
     margin-right: 20%;
     margin-left: 20%;
-    }
+}
 
- p {
-    color: #FFFAFA;
+p {
     text-align: justify;
     margin-right: 20%;
     margin-left: 20%;
-    }
+}
 
- a {
-    color: #FFFAFA;
+a {
     text-decoration: none;
-    }
+}
