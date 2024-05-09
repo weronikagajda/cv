@@ -57,9 +57,10 @@ h2 {
     text-align: center;
     }
 
-h3 {
-    color: #FFFAFA;
+h4 {
+    color: blue;          
     text-align: center;
+    text-decoration: underline; 
     }
 
 .centertext {
