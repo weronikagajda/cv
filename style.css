@@ -88,6 +88,11 @@ video:hover {
     display: block;
     width: 90%; 
     max-width: 1200px; 
+    opacity: 1;
+}
+
+.modal-content:hover {
+    opacity: 1; 
 }
 
 .close {
