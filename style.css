@@ -6,7 +6,7 @@
 body {
     font-family: system-ui;
     background-color: #000000;
-    color: #FFFAFA; /* Ensures text is readable on a dark background */
+    color: #FFFAFA; 
 }
 
 h3, h2, p, a {
@@ -23,65 +23,67 @@ h4 {
 /* Link styling */
 a {
     text-decoration: none;
-    color: #FFFAFA; /* Maintain visibility against the dark background */
+    color: #FFFAFA; 
 }
 
 a:hover {
-    text-decoration: underline; /* Indicates clickable links */
-    color: #CCCCCC; /* Lighter color on hover */
+    text-decoration: underline; 
+    color: #CCCCCC; 
 }
 
 /* Text alignment */
 .centertext, .biotext, p {
-    text-align: center;
-    margin: 0 20%; /* Central alignment with margins */
+    text-align: justify;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 /* Image styling */
 img {
     width: 60%;
     display: block;
-    margin: 20px auto; /* Center images with top and bottom margin */
-    opacity: 0.5; /* Semi-transparent images by default */
-    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    margin-right: 20%;
+    margin-left: 20%; 
+    opacity: 0.5; 
+    transition: opacity 0.3s ease; 
 }
 
 img:hover {
-    opacity: 1; /* Full opacity on hover */
+    opacity: 1; 
 }
 
 /* Video styling */
 video {
     width: 60%;
     opacity: 0.5;
-    margin: 20px 20%; /* Match image margin for consistency */
-    display: block; /* Ensure block level for centering */
+    margin: 20px 20%; 
+    display: block; 
 }
 
 video:hover {
     opacity: 1;
 }
 
-/* Modal styles for enlarged images */
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place regardless of scrolling */
-    z-index: 1; /* Sit on top of other content */
-    padding-top: 100px; /* Push down from the top */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: 100%; 
+    height: 100%; 
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity for overlay */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9); /
 }
 
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%; /* Adjust based on preference */
-    max-width: 1200px; /* Maximum width */
+    width: 80%; 
+    max-width: 1200px; 
 }
 
 .close {
@@ -103,11 +105,11 @@ video:hover {
 /* for smaller screens */
 @media (max-width: 768px) {
     .centertext, .biotext, p, img, video {
-        margin: 10px auto; /* Reduced margins for smaller screens */
-        width: 90%; /* More screen space used for content */
+        margin: 10px auto; 
+        width: 90%; 
     }
 
     img, video {
-        opacity: 0.8; /* Slightly more visible by default */
+        opacity: 0.8; 
     }
 }
