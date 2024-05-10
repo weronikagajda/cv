@@ -31,11 +31,16 @@ a:hover {
     color: #CCCCCC; 
 }
 
-/* Text alignment */
-.centertext, .biotext, p {
-    text-align: justify;
-    margin-right: 20%;
-    margin-left: 20%;
+.biotext, p {
+    text-align: justify; /* Keeps text justified */
+    width: 60%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.centertext {
+    text-align: center;
+    display: block; 
 }
 
 /* Image styling */
@@ -64,7 +69,6 @@ video:hover {
     opacity: 1;
 }
 
-
 .modal {
     display: none; 
     position: fixed; 
@@ -82,7 +86,7 @@ video:hover {
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%; 
+    width: 90%; 
     max-width: 1200px; 
 }
 
@@ -110,6 +114,6 @@ video:hover {
     }
 
     img, video {
-        opacity: 0.8; 
+        opacity: 1; 
     }
 }
