@@ -104,13 +104,11 @@
         // Get the images and insert them inside the modal
         var images = document.querySelectorAll('.enlarge-image img');
         var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
 
         images.forEach(function(image) {
             image.addEventListener('click', function(){
                 modal.style.display = "block";
                 modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
             });
         });
 
